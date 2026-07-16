@@ -309,13 +309,200 @@ export default function StakingPage() {
       </div>
 
       <div className="section">
-        <h2>Buy & Stake</h2>
+  <h2>Buy & Stake</h2>
 
-        <p>
-          Users may purchase NG Tokens using USDT and
-          immediately stake them in a single transaction.
-        </p>
-      </div>
+  <p>
+    Buy & Stake allows members to purchase NG Tokens using
+    USDT and automatically deposit the purchased tokens into
+    the staking contract in a single transaction.
+  </p>
+
+  <p>
+    Tokens purchased through Buy & Stake are not transferred
+    to the user's wallet as liquid tokens. They are immediately
+    placed into a new staking position with an independent
+    365-day lock period.
+  </p>
+</div>
+
+<div className="section">
+  <h2>Buy & Stake Pricing Model</h2>
+
+  <p>
+    The Buy & Stake pricing mechanism operates differently
+    during the initial sale phase and after the Treasury pricing
+    system has officially started.
+  </p>
+
+  <div className="cards">
+    <div className="card">
+      <h3>Initial Sale Phase</h3>
+
+      <p>
+        Before the Treasury pricing mechanism begins, there is
+        only one active Buy & Stake price:
+      </p>
+
+      <div className="value">$0.01</div>
+
+      <p>
+        Fixed price per NG Token.
+      </p>
+
+      <ul>
+        <li>Treasury Estimated Price: Not Started</li>
+        <li>Treasury Discount: Not Active</li>
+        <li>All participants purchase under the same conditions</li>
+      </ul>
+
+      <p>
+        During this phase, the 25% Treasury discount is not
+        applied because the Treasury Estimated Price has not
+        started yet.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>Market Phase</h3>
+
+      <p>
+        After the market launch and the activation of Treasury
+        pricing, the ecosystem will operate with two different
+        price references:
+      </p>
+
+      <ul>
+        <li>
+          Market Price — determined by supply and demand on
+          decentralized exchanges.
+        </li>
+
+        <li>
+          Treasury Estimated Price — calculated according to
+          the protocol's Treasury pricing model.
+        </li>
+      </ul>
+
+      <p>
+        Buy & Stake will then apply a discount of up to 25% to
+        the Treasury Estimated Price, subject to the protocol's
+        minimum selling price.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="highlight">
+  <h2>Treasury Discount Calculation</h2>
+
+  <p>
+    Once Treasury pricing has started, the Buy & Stake price is
+    calculated by applying the protocol discount to the Treasury
+    Estimated Price.
+  </p>
+
+  <p>
+    <strong>
+      Buy & Stake Price = Treasury Estimated Price × 75%
+    </strong>
+  </p>
+
+  <p>
+    However, the Treasury cannot sell NG below the minimum
+    protocol price of <strong>$0.01 per NG</strong>.
+  </p>
+
+  <p>
+    This means the effective Buy & Stake price is the higher of:
+  </p>
+
+  <ul>
+    <li>75% of the Treasury Estimated Price</li>
+    <li>The minimum price of $0.01 per NG</li>
+  </ul>
+</div>
+
+<div className="section">
+  <h2>Pricing Example</h2>
+
+  <p>
+    Suppose the Treasury Estimated Price of 1 NG is
+    <strong> $1.00</strong>.
+  </p>
+
+  <p>
+    A participant would have two choices:
+  </p>
+
+  <ul>
+    <li>
+      Purchase NG from the open market at the price determined
+      by supply and demand.
+    </li>
+
+    <li>
+      Use Buy & Stake inside the DApp and receive the Treasury
+      discount in exchange for a long-term staking commitment.
+    </li>
+  </ul>
+
+  <p>
+    With a 25% discount, the Buy & Stake price would be:
+  </p>
+
+  <p>
+    <strong>$1.00 × 75% = $0.75 per NG</strong>
+  </p>
+
+  <p>
+    The purchased NG would then be automatically deposited into
+    the staking contract and locked for 365 days.
+  </p>
+</div>
+
+<div className="section">
+  <h2>Why This Pricing Model Exists</h2>
+
+  <p>
+    The minimum Treasury selling price and the Buy & Stake
+    discount are designed to work together as part of the
+    protocol's long-term economic model.
+  </p>
+
+  <ul>
+    <li>
+      Protect the Treasury from selling NG at increasingly
+      lower prices.
+    </li>
+
+    <li>
+      Encourage buyers to purchase from the open market whenever
+      the market price is lower than the Treasury price.
+    </li>
+
+    <li>
+      Create genuine market demand instead of forcing the
+      Treasury to compete with lower market prices.
+    </li>
+
+    <li>
+      Reward participants who accept a 365-day commitment through
+      Buy & Stake.
+    </li>
+
+    <li>
+      Keep Buy & Stake economically attractive as the ecosystem
+      matures and staking APY naturally changes over time.
+    </li>
+  </ul>
+
+  <p>
+    The 25% discount is therefore not an active discount during
+    the initial sale and is not a temporary promotion. It becomes
+    part of the Buy & Stake pricing system only after Treasury
+    pricing has officially started.
+  </p>
+</div>
 
       <div className="section">
         <h2>Claim Rewards</h2>
