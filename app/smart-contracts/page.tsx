@@ -14,8 +14,8 @@ const economicContracts = [
   ["NG Vault", "0x573Ff7c42E4f228C89A2890bA26f7c74E3F32E17", "NG Vault allocation"],
   ["Staking Reward Pool", "0x7C5b1e8699b0FfE0A2f7F27F42beDD9692c52aB2", "Staking reward distribution pool"],
   ["Recycling", "0x0b6c143Bb463D941b6Ea9847243aECE6E0787e88", "Reward and fee recycling system"],
-  ["NFT Marketing", "0xf5116d973f5aC85e11aC0d3fD4bB029Bf789eD90", "Membership NFT marketing rewards"],
-  ["Buy & Stake Marketing", "0xA9e7f652932f67EE885604D9ac5Cc8B75F5CCB9A", "Buy & Stake marketing rewards"],
+  ["NFT Marketing", "0xf34e1a4712cB4428D09971a44DE555C06Db05646", "Membership NFT marketing rewards"],
+  ["Buy & Stake Marketing", "0xc10f0dfe8db39C3d328AF606351d7ed8346d0eCb", "Buy & Stake marketing rewards"],
 ];
 
 const utilityContracts = [
