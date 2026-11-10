@@ -18,7 +18,7 @@ const economicContracts = [
   ["NFT Marketing", "0xf34e1a4712cB4428D09971a44DE555C06Db05646", "Membership NFT marketing rewards"],
   ["Buy & Stake Marketing", "0xc10f0dfe8db39C3d328AF606351d7ed8346d0eCb", "Buy & Stake marketing rewards"],
   ["Treasury Profit Distribution", "0xD5ff8711Dd5BbB3e3Ea795D6033dEF3C4bF74168", "Treasury profit distribution"],
-  ["Rank Reward Pool", "0x8A2A92dd5d0cB32B102b7763878e5C976480A1f5", "Rank-based community reward pool"],
+  ["Rank Reward Pool", "0x8A2A92dd5d0cB32B102b7763878e5C976480A1f5", "Rank based community reward pool"],
 ];
 
 
