@@ -307,8 +307,8 @@ export default function MarketingRewardsPage() {
           ← Community-Owned Multi-Asset Treasury
         </a>
 
-        <a href="/governance" className="btn-next">
-          Next: Governance →
+        <a href="/rank-rewards" className="btn-next">
+          Next: Rank Reward →
         </a>
       </div>
     </DocsLayout>

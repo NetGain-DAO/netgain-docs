@@ -12,6 +12,7 @@ const sections = [
   { title: "Community-Owned Multi-Asset Treasury", href: "/treasury" },
   { title: "Treasury Participation", href: "/treasury-participation" },
   { title: "Marketing Rewards", href: "/marketing-rewards" },
+  { title: "Rank Reward", href: "/rank-rewards" },
   { title: "Governance", href: "/governance" },
   { title: "Platform Parameters", href: "/platform-parameters" },
   { title: "Recycling System", href: "/recycling-system" },
