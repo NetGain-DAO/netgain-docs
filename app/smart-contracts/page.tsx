@@ -10,13 +10,17 @@ const coreContracts = [
   ["Registry", "0xC8D3c9B33311557FAC80306F9b229A1934435Cba", "Central contract address registry"],
 ];
 
+
 const economicContracts = [
   ["NG Vault", "0x573Ff7c42E4f228C89A2890bA26f7c74E3F32E17", "NG Vault allocation"],
   ["Staking Reward Pool", "0x7C5b1e8699b0FfE0A2f7F27F42beDD9692c52aB2", "Staking reward distribution pool"],
   ["Recycling", "0x0b6c143Bb463D941b6Ea9847243aECE6E0787e88", "Reward and fee recycling system"],
   ["NFT Marketing", "0xf34e1a4712cB4428D09971a44DE555C06Db05646", "Membership NFT marketing rewards"],
   ["Buy & Stake Marketing", "0xc10f0dfe8db39C3d328AF606351d7ed8346d0eCb", "Buy & Stake marketing rewards"],
+  ["Treasury Profit Distribution", "0xD5ff8711Dd5BbB3e3Ea795D6033dEF3C4bF74168", "Treasury profit distribution"],
+  ["Rank Reward Pool", "0x8A2A92dd5d0cB32B102b7763878e5C976480A1f5", "Rank-based community reward pool"],
 ];
+
 
 const utilityContracts = [
   ["Reader", "0xE1e4006C7df2E892083367c4ec761e7c59Ea6Cb0", "Read-only dashboard data helper"],
